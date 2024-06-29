@@ -39,9 +39,9 @@ class RetimerRewrite(tk.Frame):
         # Create button objects.
         button_copy_edtm = tk.Button(master, command=self._copy_edtm, font=("Consolas", 12), bg="black", fg="gray", text="Copy Time")
         
-        self.vfps.trace_add("w", self._on_update);
-        self.sfdt.trace_add("w", self._on_update);
-        self.efdt.trace_add("w", self._on_update);
+        self.vfps.trace_add("write", self._on_update);
+        self.sfdt.trace_add("write", self._on_update);
+        self.efdt.trace_add("write", self._on_update);
         
         # Position objects.
         label_vfps.place(relx=0.28, rely=0.12, anchor="center");
