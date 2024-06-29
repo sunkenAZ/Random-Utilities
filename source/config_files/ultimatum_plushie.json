@@ -1,0 +1,19 @@
+{
+	"Keybinds": {
+		"RESET": "Key.up",
+		"0": "Key.left",
+		"1": "Key.down",
+		"2": "Key.right"
+	},
+	"Visual": {
+		"FontInfo": {
+			"Font": "Consolas",
+			"Size": 14,
+			"Color": "white"
+		},
+		"WindowInfo": {
+			"BackgroundColor": "black",
+			"Size": [550, 34]
+		}
+	}
+}

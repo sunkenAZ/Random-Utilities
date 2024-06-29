@@ -1,0 +1,13 @@
+{
+	"Visual": {
+		"FontInfo": {
+			"Font": "Consolas",
+			"Size": 14,
+			"Color": "white"
+		},
+		"WindowInfo": {
+			"BackgroundColor": "black",
+			"Size": [550, 34]
+		}
+	}
+}
