@@ -15,7 +15,7 @@ class UltimatumPlushieMemory(Tkinter.Frame):
         self.full_string = Tkinter.StringVar();
         self.string_amt = 0;
 
-        with open(OS.getcwd()+'\\source\\config_files\\ultimatum_plushie.json', 'r') as f:
+        with open(OS.getcwd()+'\\config_files\\ultimatum_plushie.json', 'r') as f:
             d = JSON.loads(f.read());
             self.keybinds = d["Keybinds"];
             self.font_info = d["Visual"]["FontInfo"];
